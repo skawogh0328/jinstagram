@@ -35,7 +35,7 @@ class Main(APIView):
             ))
 
         return render(request,
-                      'jinstagram/main.html',
+                      'jinstagram/index.html',
                       context=dict(feed_list=feed_list,
                                    user=user))
 
